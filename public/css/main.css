@@ -1,0 +1,20 @@
+@font-face {
+  src: url("../fonts/Yekan.woff");
+  font-family: "Yekan";
+}
+
+body, main {
+  font-family: "Yekan";
+}
+
+.center-fixed {
+  position: fixed;
+  right: 50%;
+  top: 50%;
+  -webktit-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+
+.hidden {
+  display: none;
+}
